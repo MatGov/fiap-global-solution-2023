@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/CSS/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/491338a4e6.js" crossorigin="anonymous"></script>
+  <title>AgroVision - Homepage</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <nav class="navbar navbar-expand-md text-bg-dark navbar-dark py-3 py-md-0 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand logo-name" href="/">
+        AGROVision
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+        aria-controls="#nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav-menu">
+        <ul class="navbar-nav my-3 ms-3 ms-md-auto d-flex gap-2 gap-md-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_2.html">Fome Mundial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_3.html">Insegurança Alimentar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_4.html">Agricultura Sustentável</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_5.html">Nossa Proposta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="/page_5.html">
+            <img src="assets/IMG/190620-com1-des-f1-Ciencias-Agroforestales.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block fundo-caption">
+              <h1 class="fw-bold">AgroVision - Uma nova solução para o seu cultivo!</h1>
+              <p class="fw-semibold">Venha fazer parte da plataforma que mais ajuda produtores no dia a dia.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="/page_2.html">
+            <img
+              src="assets/IMG/campanha-brasil-sem-fome-comeca-hoje-e-mira-32-milhoes-de-criancas-com-inseguranca-alimentar.png"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block fundo-caption">
+              <h1 class="fw-bold">Fome no mundo - Um problema de todos nós</h1>
+              <p class="fw-semibold">Como a fome tem afetado a vida de milhões de pessoas?</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="/page_3.html">
+            <img src="assets/IMG/pexels-tim-mossholder-974314.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block fundo-caption">
+              <h1 class="fw-bold">Insegurança Alimentar</h1>
+              <p class="fw-semibold">Explore a luta contra a Insegurança Alimentar e a busca por soluções duradouras.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="/page_4.html">
+            <img src="assets/IMG/smart-agriculture-iot-with-hand-planting-tree-background.jpg" class="d-block w-100"
+              alt="...">
+            <div class="carousel-caption d-none d-md-block fundo-caption">
+              <h1 class="fw-bold">Agricultura Sustentável e ODS 2 da ONU.</h1>
+              <p class="fw-semibold">Descubra a importância da Agricultura Sustentável e seu impacto no ODS 2 da ONU.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <div class="row g-0 fundo-verde">
+      <div class="container col-xxl-8 px-4 py-5 ">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-12 col-sm-8 col-lg-6">
+            <img src="/assets/IMG/hunger.jpg" class="d-block mx-lg-auto img-fluid" alt="" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <div class="lc-block mb-3">
+              <div editable="rich">
+                <h2 class="fw-bold display-5" style="color: #4D225E">A fome é um dilema universal que aflige multidões
+                  de indivíduos ao
+                  redor
+                  do globo.</h2>
+              </div>
+            </div>
+
+            <div class="lc-block mb-3">
+              <div editable="rich">
+                <p class="lead" style="color: #4D225E">
+                  Conforme as constatações proferidas pela estimada Organização das Nações Unidas para a Alimentação e
+                  Agricultura (FAO), aproximadamente 828 milhões de seres humanos foram castigados pela fome em 2021, ao
+                  passo que 2,3 bilhões de almas padecem de insegurança alimentar, em sua forma moderada ou aguda, no
+                  mesmo ano.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+        <div class="col-lg-6">
+          <div class="lc-block mb-3">
+            <div editable="rich">
+              <h2 class="fw-bold display-5" style="color: #4D225E">Em 2020, a fome afligiu uma gigantesca quantidade de
+                720 a 811 milhões de pessoas ao redor do globo,</h2>
+            </div>
+          </div>
+
+          <div class="lc-block mb-3">
+            <div editable="rich">
+              <p class="lead" style="color: #4D225E">
+                um acréscimo impactante de 161 milhões comparado ao ano anterior. E não para por aí: 149,2 milhões de
+                crianças com menos de 5 anos foram vítimas do retardo de crescimento, correspondendo a aproximadamente
+                22,0% do total. Essa realidade cruel e desoladora demanda nossa compaixão e ação solidária imediatas.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="assets/IMG/grafico-fome-2020.png" class="d-block mx-lg-auto img-fluid image-corpo" alt=""
+            loading="lazy">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row g-0 fundo-verde">
+      <div class="container col-xxl-8 px-4 py-5 ">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-12 col-sm-8 col-lg-6">
+            <img src="/assets/IMG/Imagem Segurança Alimentar.png" class="d-block mx-lg-auto img-fluid" alt=""
+              loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <div class="lc-block mb-3">
+              <div editable="rich">
+                <h2 class="fw-bold display-5" style="color: #4D225E">A falta de acesso regular e suficiente a alimentos
+                  de qualidade é chamada de Insegurança Alimentar e Nutricional (IAN).</h2>
+              </div>
+            </div>
+
+            <div class="lc-block mb-3">
+              <div editable="rich">
+                <p class="lead" style="color: #4D225E">
+                  A Segurança Alimentar e Nutricional (SAN) busca garantir que todas as pessoas tenham acesso constante
+                  e seguro a alimentos de qualidade, adequados às suas necessidades culturais. Quando as pessoas não têm
+                  acesso suficiente aos alimentos, sua saúde e qualidade de vida são afetadas. É fundamental trabalhar
+                  para garantir a SAN para todos e promover uma vida saudável.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+        <div class="col-lg-6">
+          <div class="lc-block mb-3">
+            <div editable="rich">
+              <h2 class="fw-bold display-5">Agricultura e meio ambiente devem caminhar juntos
+                para um futuro sustentável. </h2>
+            </div>
+          </div>
+
+          <div class="lc-block mb-3">
+            <div editable="rich">
+              <p class="lead">
+                A agricultura sustentável protege o solo, a água e os recursos genéticos, utilizando técnicas adequadas
+                como agroflorestais e agricultura orgânica.</p>
+
+              <p class="lead">
+                Isso é viável economicamente e aceito socialmente.
+              </p>
+
+              <p class="lead">
+                É importante garantir alimentos de qualidade de forma harmônica com o meio ambiente.</p>
+
+              <p class="lead"></p>
+              Agricultura e meio ambiente são parceiros para um desenvolvimento agrícola sustentável, beneficiando as
+              pessoas e o planeta.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/assets/IMG/agro-meioambiente.jpg" class="d-block mx-lg-auto img-fluid" alt="" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-0 fundo-verde">
+
+      <div class="row d-flex justify-content-center align-items-center h-100 fundo-verde">
+        <div class="col col-lg-10 col-xl-8">
+
+          <div class="card fundo-lilas text-white rounded-3 mb-5 mt-5">
+            <div class="card-body p-4">
+              <figure class="mb-0">
+                <blockquote class="blockquote">
+                  <p class="pb-2">
+                    A ODS 2 da ONU é um objetivo global chamado "Fome Zero e Agricultura Sustentável". Isso significa
+                    trabalhar para acabar com a fome em todo o mundo, garantindo que todas as pessoas tenham acesso a
+                    alimentos saudáveis e em quantidade suficiente. Também é importante promover uma agricultura
+                    sustentável, que cuide do solo, da água e dos recursos naturais, protegendo o meio ambiente. Assim,
+                    podemos cultivar alimentos de forma responsável, cuidar da natureza e garantir um futuro melhor para
+                    todos.
+                  </p>
+                </blockquote>
+              </figure>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-center text-lg-start bg-white text-muted">
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>AgroVision
+            </h6>
+            <p>
+              AgroVision: a plataforma que fornece recomendações personalizadas de variedades de sementes e frutos com
+              base nas condições climáticas da sua região. Nossos recursos Premium incluem dicas de cuidado com o solo e
+              identificação de possíveis solos compatíveis através da IA Generativa.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Patrocinadores do FIAP - GLOBAL SOLUTION
+            </h6>
+            <p>
+              <a href="https://www.fiap.com.br/" class="text-reset">FIAP</a>
+            </p>
+            <p>
+              <a href="https://www.kraftheinzfoodservice.com.br/" class="text-reset">Kraft Heinz</a>
+            </p>
+            <p>
+              <a href="https://www.cacafome.com.br/#/" class="text-reset">Caça-Fome</a>
+            </p>
+            <p>
+              <a href="https://www.microsoft.com/pt-br" class="text-reset">Microsoft</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Nossa Equipe
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Israel Igarashi - RM 98359</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Leonardo Bernardes - RM 99788</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Matheus Gouvêa - RM 97774</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Ryan Aquino - RM 550422</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Newsletter</h6>
+            <p>Cadastre seu e-mail e fique por dentro das novidades sobre nossa plataforma!</p>
+            <input type="text" placeholder="Digite seu e-mail" class="form-control mb-3 input-email-index">
+            <input type="text" placeholder="Digite seu telefone"
+              class="form-control mb-3 input-telefone-index valida-telefone">
+            <button class="btn btn-index" onclick="validarEmailIndex()">Inscrever-se</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="#!">AgroVision</a>
+    </div>
+  </footer>
+
+  <script src="/assets/JS/functions.js"></script>
+</body>
+
+</html>
